@@ -11,11 +11,11 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
      */
     private int totalRejected = 0;
 
-    /**
+/**
      * Zwraca całkowitą liczbę odrzuconych wartości.
      * * @return liczba odrzuconych wartości
      */
-    public int reportRejected() {
+    public final int reportRejected() {
         return totalRejected;
     }
 
